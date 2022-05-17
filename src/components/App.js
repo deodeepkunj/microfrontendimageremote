@@ -18,7 +18,6 @@ export default () => {
 
   return (
     <div className="ui container">
-      <h1>ljkdhfgkhdk</h1>
       <SearchBar onSubmit={onSubmit} />
       <ImageList>
         {
