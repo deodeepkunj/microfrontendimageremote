@@ -23,10 +23,10 @@ module.exports = {
     plugins: [
         new ModuleFederationPlugin({
             name: "images_remote",
-            filename: "remoteEntry.js",
-            exposes: {
-                './App': "./src/components/App"
-            },
+            // filename: "remoteEntry.js",
+            // exposes: {
+            //     './App': "./src/components/App"
+            // },
             shared: ['react', 'react-dom']
         }),
         new HtmlWebpackPlugin({
