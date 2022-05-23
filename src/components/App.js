@@ -6,7 +6,6 @@ import ImageCard from './ImageCard'
 
 
 export default () => {
-  console.log("ksjbdkfjb", process.env)
   const [images, setImages] = useState([]);
 
   const onSubmit = async (term) => {
